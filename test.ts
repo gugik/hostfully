@@ -65,12 +65,12 @@ async function testAddFunction() {
         console.log('Click on filter Button');
 
         // Step 8: Verify filter results
-        var message3 = await driver.wait(until.elementLocated(By.xpath('//a[text()=\'Ulk\']')))
+        var message3 = await driver.wait(until.elementLocated(By.xpath('//a[text()=\'Ulk\']')), 5000)
             .getText();
         if (!message3.includes('Ulk')) throw new Error("No such computer as \'Ulk\' was found")
         else console.log('Computer \'Ulk\' was found');
     } finally {
-        //await driver.quit();
+        await driver.quit();
     }
 }
 
