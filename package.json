@@ -1,0 +1,20 @@
+{
+  "name": "hostfully",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.10.4",
+    "@types/selenium-webdriver": "^4.1.21",
+    "moment": "^2.29.4",
+    "selenium-webdriver": "^4.16.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
